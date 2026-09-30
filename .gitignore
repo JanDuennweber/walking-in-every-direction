@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+results/
+results_seeds/
+data_generation/headings/
+data_generation/unity/work/
+*.log
