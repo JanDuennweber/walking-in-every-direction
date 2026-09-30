@@ -1,5 +1,10 @@
 # Walking in Every Direction
 
+A Robinson/Star-tiling scaffold for sampling the walking directions of
+simulated pedestrians, headless data generation with a Unity simulation, and
+PyTorch training of a footstep-detection network on the resulting synthetic
+data, which detects real footsteps on SensFloor sensor mats of the same shape.
+
 Code and data for the experiments in
 
 > J. Dünnweber, J. Geyer: *Walking in Every Direction: Aperiodic Data Enrichment
