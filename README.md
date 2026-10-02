@@ -132,7 +132,9 @@ resume.
 `python3 data_generation/verify_robinson_axes.py` confirms that the axes of
 symmetry of all triangles in a wheel-seeded Robinson tiling point in the ten
 directions k·36° with equal frequency, which makes the Robinson heading
-sampler equivalent to sampling a triangle of the tiling uniformly.
+sampler equivalent to sampling a triangle of the tiling uniformly. The
+tiling is built with the standard Robinson-triangle subdivision as presented
+in J. Preshing, [*Penrose Tiling Explained*](https://preshing.com/20110831/penrose-tiling-explained/) (2011).
 
 ## License
 

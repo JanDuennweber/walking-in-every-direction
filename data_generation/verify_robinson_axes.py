@@ -12,6 +12,11 @@ Builds the tiling with the standard Robinson subdivision (golden triangle L
 and prints, per generation, the axis directions found and their counts
 (in total and separately for L and S).
 
+The subdivision follows the standard Robinson-triangle construction as
+presented in J. Preshing, "Penrose Tiling Explained" (2011),
+https://preshing.com/20110831/penrose-tiling-explained/ (complex-number
+vertices, ten-triangle wheel seed with every second triangle mirrored).
+
 Scope: the complete wheel-seeded patch. A patch clipped to an irregular
 footprint (paper Figures 5/6) is not exactly balanced in general.
 
