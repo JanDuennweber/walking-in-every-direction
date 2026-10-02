@@ -129,6 +129,15 @@ The simulation runs in real time (about three hours per condition); a
 watchdog restarts Unity if it stops producing output, and interrupted runs
 resume.
 
+`data_generation/unity/Table3DataGen.cs` is the only C# file in the
+repository: a small Unity editor script that `apply_unity_patch.py` copies
+into the project's `Assets/Editor/` folder. Unity can only run C# code, so
+this script is the entry point that `generate_table3_data.sh` calls in batch
+mode (`-executeMethod Table3DataGen.Run`) to open the simulation scene and
+start it. The changes to the simulation itself are applied as text patches
+by `apply_unity_patch.py`. None of this is needed for training and
+evaluation with the data included in this repository.
+
 `python3 data_generation/verify_robinson_axes.py` confirms that the axes of
 symmetry of all triangles in a wheel-seeded Robinson tiling point in the ten
 directions k·36° with equal frequency, which makes the Robinson heading
