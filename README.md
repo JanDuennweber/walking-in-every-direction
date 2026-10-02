@@ -145,6 +145,17 @@ sampler equivalent to sampling a triangle of the tiling uniformly. The
 tiling is built with the standard Robinson-triangle subdivision as presented
 in J. Preshing, [*Penrose Tiling Explained*](https://preshing.com/20110831/penrose-tiling-explained/) (2011).
 
+## Authorship and use of AI assistance
+
+The network architecture, loss function, data loading, training loop,
+post-processing, and the Unity simulation of walking humans were developed by
+Johannes Geyer and Jan Dünnweber. The direction-sensitive kernel bank, the
+experiment scripts, the headless data generation for the Robinson and uniform
+360° conditions, and the verification of the Robinson heading sampler were
+developed with the help of AI coding assistants (including Anthropic's Claude
+Code), under the direction of the authors, who designed the experiments,
+reviewed the code, and checked all results reported in the paper.
+
 ## License
 
 MIT, see `LICENSE`.
